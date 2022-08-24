@@ -71,7 +71,7 @@ jobs:
             -resultBundlePath "$TVOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
       - name: Test watchOS
         run: |
-          xcodebuild clean build test \
+          xcodebuild clean build \
             -project "$XCODE_PROJECT" \
             -scheme "$WATCHOS_SCHEME" \
             -destination "$WATCHOS_DESTINATION" \
