@@ -1,5 +1,5 @@
 # DI
-[![Build Status](https://github.com/almazrafi/DI/workflows/CI/badge.svg?branch=master)](https://github.com/almazrafi/DI/actions)
+[![Build Status](https://github.com/almazrafi/DI/workflows/CI/badge.svg?branch=main)](https://github.com/almazrafi/DI/actions)
 [![Cocoapods](https://img.shields.io/cocoapods/v/DI.svg?style=flat)](http://cocoapods.org/pods/DI)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
