@@ -46,16 +46,32 @@ jobs:
           swift --version
       - name: Test iOS
         run: |
-          xcodebuild clean build test -project "$XCODE_PROJECT" -scheme "$IOS_SCHEME" -destination "$IOS_DESTINATION" -resultBundlePath "$IOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
+          xcodebuild clean build test \
+            -project "$XCODE_PROJECT" \
+            -scheme "$IOS_SCHEME" \
+            -destination "$IOS_DESTINATION" \
+            -resultBundlePath "$IOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
       - name: Test macOS
         run: |
-          xcodebuild clean build test -project "$XCODE_PROJECT" -scheme "$MACOS_SCHEME" -destination "$MACOS_DESTINATION" -resultBundlePath "$MACOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
+          xcodebuild clean build test \
+            -project "$XCODE_PROJECT" \
+            -scheme "$MACOS_SCHEME" \
+            -destination "$MACOS_DESTINATION" \
+            -resultBundlePath "$MACOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
       - name: Test tvOS
         run: |
-          xcodebuild clean build test -project "$XCODE_PROJECT" -scheme "$TVOS_SCHEME" -destination "$TVOS_DESTINATION" -resultBundlePath "$TVOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
+          xcodebuild clean build test \
+            -project "$XCODE_PROJECT" \
+            -scheme "$TVOS_SCHEME" \
+            -destination "$TVOS_DESTINATION" \
+            -resultBundlePath "$TVOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
       - name: Build watchOS
         run: |
-          xcodebuild clean build -project "$XCODE_PROJECT" -scheme "$WATCHOS_SCHEME" -destination "$WATCHOS_DESTINATION" -resultBundlePath "$WATCHOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
+          xcodebuild clean build \
+            -project "$XCODE_PROJECT" \
+            -scheme "$WATCHOS_SCHEME" \
+            -destination "$WATCHOS_DESTINATION" \
+            -resultBundlePath "$WATCHOS_RESULT_PATH" | xcpretty -f `xcpretty-json-formatter`
       - name: Danger
         run: bundle exec danger --remove-previous-comments
 
