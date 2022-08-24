@@ -38,10 +38,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - name: Bundler
-        run: |
-          gem install bundler
-          bundle install --without=documentation
       - name: Preparation
         run: |
           set -o pipefail
@@ -85,10 +81,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - name: Bundler
-        run: |
-          gem install bundler
-          bundle install --without=documentation
       - name: Linting
         run: bundle exec pod lib lint --skip-tests --allow-warnings
 
