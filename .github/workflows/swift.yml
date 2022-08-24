@@ -11,7 +11,6 @@ on:
 env:
   LC_CTYPE: en_US.UTF-8
   LANG: en_US.UTF-8
-  RUBY_VERSION: 3.1.2
 
 jobs:
   BuildAndTests:
@@ -35,11 +34,10 @@ jobs:
       SKIP_SWIFTLINT: YES
       DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
-      - name: Ruby
-        uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
       - name: Bundler
         run: |
           gem install bundler
@@ -83,11 +81,10 @@ jobs:
     name: Cocoapods
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Ruby
-        uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }}
+          bundler-cache: true
       - name: Bundler
         run: |
           gem install bundler
@@ -99,6 +96,6 @@ jobs:
     name: Swift Package Manager
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Build
         run: swift build
