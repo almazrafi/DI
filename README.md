@@ -1,12 +1,12 @@
 # DI
-[![Build Status](https://github.com/almazrafi/DI/workflows/CI/badge.svg?branch=master)](https://github.com/almazrafi/DI/actions)
+[![Build Status](https://github.com/almazrafi/DI/workflows/CI/badge.svg?branch=main)](https://github.com/almazrafi/DI/actions)
 [![Cocoapods](https://img.shields.io/cocoapods/v/DI.svg?style=flat)](http://cocoapods.org/pods/DI)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 [![Platforms](https://img.shields.io/cocoapods/p/DI.svg?style=flat)](https://developer.apple.com/discover/)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blue.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
-[![License](https://img.shields.io/github/license/almazrafi/DI.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/almazrafi/DI)](https://opensource.org/licenses/MIT)
 
 ## Requirements
 - iOS 10.0+ / macOS 10.12+ / watchOS 3.0+ / tvOS 10.0+
