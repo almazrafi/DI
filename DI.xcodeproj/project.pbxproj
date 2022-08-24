@@ -41,6 +41,9 @@
 		C04353242691CE24005451C0 /* ServiceSharedScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04353232691CE24005451C0 /* ServiceSharedScope.swift */; };
 		C057F01823CB8EEB00C2D895 /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C057F00E23CB8EEB00C2D895 /* DI.framework */; };
 		C057F01F23CB8EEB00C2D895 /* DI.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* DI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06DC97728B612C30076EDFA /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072CF4F2691CBEA003C0590 /* DITests.swift */; };
+		C06DC97828B612C30076EDFA /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072CF4F2691CBEA003C0590 /* DITests.swift */; };
+		C06DC97928B612C30076EDFA /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C072CF4F2691CBEA003C0590 /* DITests.swift */; };
 		C0A01A3223CB90F200AC2C3A /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A2923CB90F200AC2C3A /* DI.framework */; };
 		C0A01A4123CB912C00AC2C3A /* DI.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* DI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0A01A5023CB92EB00AC2C3A /* DI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A4723CB92EB00AC2C3A /* DI.framework */; };
@@ -639,6 +642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06DC97728B612C30076EDFA /* DITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06DC97828B612C30076EDFA /* DITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06DC97928B612C30076EDFA /* DITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
