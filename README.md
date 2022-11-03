@@ -1,11 +1,11 @@
 # DI
 [![Build Status](https://github.com/almazrafi/DI/workflows/CI/badge.svg?branch=main)](https://github.com/almazrafi/DI/actions)
-[![Cocoapods](https://img.shields.io/cocoapods/v/DI.svg?style=flat)](http://cocoapods.org/pods/DI)
+[![Cocoapods](https://img.shields.io/cocoapods/v/DI)](http://cocoapods.org/pods/DI)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
-[![Platforms](https://img.shields.io/cocoapods/p/DI.svg?style=flat)](https://developer.apple.com/discover/)
-[![Xcode](https://img.shields.io/badge/Xcode-13-blue.svg)](https://developer.apple.com/xcode)
-[![Swift](https://img.shields.io/badge/Swift-5.5-orange.svg)](https://swift.org)
+[![Platforms](https://img.shields.io/cocoapods/p/DI)](https://developer.apple.com/discover/)
+[![Xcode](https://img.shields.io/badge/Xcode-13-blue)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.5-orange)](https://swift.org)
 [![License](https://img.shields.io/github/license/almazrafi/DI)](https://opensource.org/licenses/MIT)
 
 ## Requirements
