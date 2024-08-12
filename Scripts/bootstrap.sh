@@ -5,6 +5,7 @@ set -e
 readonly script_path="$( cd "$( dirname "$0" )" && pwd )"
 readonly bootstrap_path="${script_path}/Bootstrap"
 
+
 "${bootstrap_path}/welcome.sh"
 "${bootstrap_path}/macos.sh"
 
